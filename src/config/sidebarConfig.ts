@@ -11,7 +11,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 	// left: 仅显示左侧边栏
 	// right: 仅显示右侧边栏
 	// both: 双侧边栏，1280px以上同时显示左右，769-1279px根据tabletSidebar配置显示其中一侧
-	position: "both",
+	position: "left",
 
 	// 平板端(769-1279px)显示哪侧侧边栏，仅position为both时生效
 	// left: 平板端显示左侧边栏
@@ -62,7 +62,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：音乐播放器
 			type: "music",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
@@ -106,7 +106,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：最新动态组件
 			type: "dynamic",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件位置
 			position: "top",
 			// 是否在文章详情页显示
@@ -123,7 +123,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：站点统计组件
 			type: "stats",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件位置
 			position: "top",
 			// 是否在文章详情页显示
@@ -133,7 +133,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：站点信息组件
 			type: "siteInfo",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件位置
 			position: "top",
 			// 是否在文章详情页显示
@@ -284,7 +284,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：最新动态组件
 			type: "dynamic",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 是否在文章详情页显示
 			showOnPostPage: true,
 			// 组件专属配置
@@ -299,7 +299,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：站点统计组件
 			type: "stats",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 是否在文章详情页显示
 			showOnPostPage: true,
 		},
@@ -307,7 +307,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：站点信息组件
 			type: "siteInfo",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 是否在文章详情页显示
 			showOnPostPage: true,
 			// 组件专属配置
