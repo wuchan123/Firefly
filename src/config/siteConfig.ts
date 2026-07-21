@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "wuchan",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://wuchanblog.com",
 
 	// 站点描述
 	description:
@@ -20,13 +20,7 @@ export const siteConfig: SiteConfig = {
 
 	// 站点关键词
 	keywords: [
-		"wuchan",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"静态博客",
+		"wuchan","博客","学习进程"
 	],
 
 	// 主题色
@@ -75,11 +69,11 @@ export const siteConfig: SiteConfig = {
 		// 4. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Logo" }
 		logo: {
 			type: "image",
-			value: "assets/images/firefly.png",
+			value: "assets/images/wuchan.png",
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly",
+		title: "水豚",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -91,7 +85,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01",
+	siteStartDate: "2026-07-21",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
@@ -100,17 +94,17 @@ export const siteConfig: SiteConfig = {
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404并自动隐藏对应的导航栏菜单项
 	pages: {
 		// 友链页面开关
-		friends: true,
+		friends: false,
 		// 打赏页面开关
-		sponsor: true,
+		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
 		guestbook: true,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: true,
+		bangumi: false,
 		// 相册页面开关
-		gallery: true,
+		gallery: false,
 		// 追番页面开关
-		anime: true,
+		anime: false,
 		// 动态页面开关
 		dynamic: true,
 	},
@@ -126,7 +120,7 @@ export const siteConfig: SiteConfig = {
 		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（多列布局）
 		defaultMode: "list",
 		// 移动端默认布局模式，不设置则跟随 defaultMode
-		mobileDefaultMode: "grid",
+		mobileDefaultMode: "list",
 		// 是否允许用户切换布局
 		allowSwitch: true,
 		// 文章简介显示行数，设为 0 则不截断
