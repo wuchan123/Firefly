@@ -4,8 +4,7 @@ published: 2026-07-21
 pinned: true
 description: "关于这个博客的一些事"
 image: "./cover.png"
-tags: [ "博客", "介绍"]
-category: 博客介绍
+
 ---
 
 
